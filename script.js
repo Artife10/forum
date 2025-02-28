@@ -28,7 +28,7 @@ function Forumkuld() {
     ForumNezesJel();
     Eletkor();
     if (helyesek == 4) {
-        error = "<p id='helyes'>HELYES</p>"
+        error = "<a href='Site/SiteHome.html'><p id='helyes'>HELYES</p></a>"
         document.getElementById("error").innerHTML = error
     }
 }
